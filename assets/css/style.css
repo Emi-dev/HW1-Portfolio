@@ -6,10 +6,14 @@ body {
 
 /* header: appears the same in every page, contains my name and .pageLink division */
 header {
+    border-bottom: 2px solid #dddddd;
+}
+
+/* division nested in "header" to contain my name and page links */
+.pageHeader {
     width: 960px;
     height: 100px;
     margin: 0px auto;
-    padding: 20px 20px 0 20px;
     position: relative;
 }
 
@@ -18,10 +22,10 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     background-color: #4aaaa5;
-    width: 250px;
+    width: 200px;
     text-align: center;
     margin: 0;
-    padding: 10px;
+    padding: 0.5em;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -31,7 +35,6 @@ header {
 .pageLinks {
     width: 300px;
     margin: 0;
-    padding: 10px;
     position: absolute;
     left: 700px;
     bottom: 0;
@@ -50,7 +53,6 @@ li {
 
 main {
     background-image: url("../images/flower.png");
-    border-top: 2px solid #dddddd;
 }
 
 /* main content division */
@@ -58,27 +60,36 @@ main {
     background-color: #ffffff;
     width: 960px;
     margin: 0 auto;
-    padding: 20px;
     overflow: auto;
 }
 
 /* page header in the main content */
-.pageHeader {
+.contentHeader {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    margin: 20px 20px 0 20px;
+    padding: 10px 0px 20px 0px;
+    border-bottom: 2px solid #dddddd;
 }
 
 /* section that contains the main contents of the page */
 section {
-    border-top: 2px solid #dddddd;
-}
-
-img {
-    width: 200px;
-    float: left;
     padding: 10px;
 }
 
+p {
+    margin: 0;
+    padding: 10px;
+}
+
+img {
+    width: 250px;
+    float: left;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* every third image inline gets cleared leftside to be desplayd in the separate row */
 .clear {
     clear: left;
 }
