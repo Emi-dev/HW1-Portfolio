@@ -23,7 +23,7 @@ header {
     margin: 0;
     padding: 10px;
     position: absolute;
-    left: 20;
+    left: 0;
     bottom: 0;
 }
 
@@ -49,7 +49,7 @@ li {
 }
 
 main {
-    background-image: url("assets/images/wood-texture.png");
+    background-image: url("../images/flower.png");
     border-top: 2px solid #dddddd;
 }
 
@@ -90,6 +90,13 @@ form {
 label, input, textarea {
     width: 100%;
     margin: 5px;
+}
+
+.submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 100px;
+    height: 30px;
 }
 
 footer {
