@@ -29,19 +29,19 @@
                 <div class="mainContent">
                     <!-- don't quite understand this form tag line... used a book as a reference. -->
                     <form action="https://www.example.com/review.php" method="get">
-                        <label>
+                        <label for="name">
                             Name<br>
-                            <input class="text" type="text" name="name" onfocus="this.value=''" value="Your Name">
+                            <input class="name" type="text" name="name" onfocus="this.value=''" value="Your Name">
                         </label><br>
 
-                        <label>
+                        <label for="email">
                             Email<br>
-                            <input class="text" type="email" name="email" onfocus="this.value=''" value="example@abc.com">
+                            <input class="email" type="email" name="email" onfocus="this.value=''" value="example@abc.com">
                         </label><br>
 
-                        <label>
+                        <label for="message">
                             Message<br>
-                            <textarea class="text" name="message" rows="10" onfocus="this.value=''">Please enter message...</textarea>
+                            <textarea class="message" name="message" rows="10" onfocus="this.value=''">Please enter message...</textarea>
                         </label>
 
                         <input class="submit" type="submit" name="submit">
