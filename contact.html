@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
     <head>
         <meta charset="UTF-8">
@@ -12,42 +12,42 @@
             <div class="pageHeader">
                 <h1 class="myName">Emi Clar</h1>
 
-                <div class="pageLinks">
+                <nav>
                     <ul>
-                        <li><a href="index.html" alt="About Me Page">About</a></li>
-                        <li><a href="portfolio.html" alt="Portfolio page">Portfolio</a></li>
-                        <li><a href="contact.html" alt="Contact page">Contact</a></li>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
-                </div>
+                </nav>
             </div>
         </header>
 
         <main>
-            <div class="container">
+            <section class="contact">
                 <h2 class="contentHeader">Contact</h2>
 
-                <section id="mainContent">
+                <div class="mainContent">
                     <!-- don't quite understand this form tag line... used a book as a reference. -->
                     <form action="https://www.example.com/review.php" method="get">
                         <label>
-                            Name</br>
+                            Name<br>
                             <input type="text" name="name">
-                        </label></br>
+                        </label><br>
 
                         <label>
-                            Email</br>
+                            Email<br>
                             <input type="email" name="email">
-                        </label></br>
+                        </label><br>
 
                         <label>
-                            Message</br>
+                            Message<br>
                             <textarea name="message" rows="20"></textarea>
                         </label>
 
                         <input class="submit" type="submit" name="submit">
                     </form>
-                </section>
-            </div>
+                </div>
+            </section>
         </main>
 
         <footer>Copyright &copy; 2019 Emi Clar</footer>
