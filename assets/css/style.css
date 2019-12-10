@@ -66,7 +66,7 @@ main {
 section {
     background-color: #ffffff;
     width: 960px;
-    margin: 0 auto;
+    margin: 30px auto auto auto;
     overflow: auto;
 }
 
@@ -116,12 +116,18 @@ figcaption {
 }
 
 form {
-    padding: 20px;
+    padding: 10px;
 }
 
 label, input, textarea {
     width: 100%;
     margin: 5px;
+}
+
+.text {
+    color: #777777;
+    width: 97%;
+    padding: 0.5em;
 }
 
 .submit {

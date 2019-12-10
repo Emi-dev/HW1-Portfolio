@@ -31,17 +31,17 @@
                     <form action="https://www.example.com/review.php" method="get">
                         <label>
                             Name<br>
-                            <input type="text" name="name">
+                            <input class="text" type="text" name="name" onfocus="this.value=''" value="Your Name">
                         </label><br>
 
                         <label>
                             Email<br>
-                            <input type="email" name="email">
+                            <input class="text" type="email" name="email" onfocus="this.value=''" value="example@abc.com">
                         </label><br>
 
                         <label>
                             Message<br>
-                            <textarea name="message" rows="20"></textarea>
+                            <textarea class="text" name="message" rows="10" onfocus="this.value=''">Please enter message...</textarea>
                         </label>
 
                         <input class="submit" type="submit" name="submit">
