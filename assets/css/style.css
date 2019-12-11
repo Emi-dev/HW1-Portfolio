@@ -33,6 +33,7 @@ header {
     text-align: center;
     margin: 0;
     padding: 0.5em;
+    border-radius: 5px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -68,6 +69,7 @@ section {
     background-color: #ffffff;
     width: 960px;
     margin: 30px auto 30px auto;
+    border-radius: 5px;
     overflow: auto;
 }
 
@@ -128,6 +130,7 @@ label, input, textarea {
 input, textarea {
     color: #777777;
     padding: 0.5em;
+    border-radius: 5px;
 }
 
 .submit {
